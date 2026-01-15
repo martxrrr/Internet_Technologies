@@ -1,14 +1,16 @@
 #body{
-    background-color: #0a192f;
+    background-color:  #0a192f;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
 }
 form{
-    background-color: #ccd6f6;    
-    max-width: 600px;
+    background-color:  #0a192f;    
+    color: aliceblue;
+    max-width: 700px;
     text-align: center;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
 }
 #heading{
     color: #64ffda;
@@ -29,4 +31,17 @@ form{
     height: 40px;
     width: 150px;
     border-radius: 5px;
+}
+button{
+    background-color: #0e7f65;
+    padding: 10px;
+    width: 120px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #64ffda;
 }

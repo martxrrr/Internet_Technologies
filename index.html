@@ -9,30 +9,38 @@
         <h1 id="heading">Personal Info Form</h1>
         <hr>
         <form>
+            <h1>Personal Details</h1>
             <div>
                 <label for="fname">Enter your first name</label><br>
                 <input type="text" id="fname" required placeholder="First Name">
             </div>
             <br>
-            <br>
             <div>
-                <label for="lname">Enter your last name: </label><br>
+                <label for="lname">Enter your last name</label><br>
                 <input type="text" id="lname" required placeholder="Last Name">
             </div>
             <br>  
-            <br>
             <div>
                 <label for="age">Age: </label><br>
                 <input type="number" id="age" required placeholder="Enter your age">
             </div>
-            <br>
-            <br>
+            <hr>
+            <h1>Check in your favorite programming language</h1>
             <div>
-                <input type="submit" id="submit"> 
-            </div>          
+                <label for="cpp">C++</label>
+                <input type="checkbox" id="cpp"><img src="assets/cpp.png">
 
+                <label for="python">Python</label>
+                <input type="checkbox" id="python" ><img src="assets/python.png">
+
+                <label for="javascript">Javascript</label>
+                <input type="checkbox" id="javascript"><img src="assets/js.png">
+
+            </div>
+            <br>
+            <button type="submit" onclick="Click()">Submit</button>        
+            <p id="textbox"></p>
         </form>
-
         <script src="index.js"></script>
     </body>
 </html>
