@@ -1,0 +1,30 @@
+#body{
+    background-color: #0a192f;
+    color: #8892b0;
+}
+#heading{
+    color: #64ffda;
+    font-family: 'Courier New', Courier, monospace;
+}
+#fname{
+    background-color: #8892b0;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+#lname{
+    background-color: #8892b0;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+#age{
+    background-color: #8892b0;
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+div{
+    text-align: center;
+}
