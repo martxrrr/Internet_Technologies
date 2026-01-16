@@ -11,6 +11,10 @@ form{
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 15px black;
+
+    position: absolute;
+    top: 110px;
+    left: 100px;
 }
 #heading{
     color: #64ffda;
@@ -32,11 +36,16 @@ form{
     width: 150px;
     border-radius: 5px;
 }
+#textbox{
+    margin-bottom: 20px;
+}
+#imgdiv{
+    margin-right: 50px;
+}
 button{
     background-color: #0e7f65;
     padding: 10px;
     width: 120px;
-    margin-bottom: 10px;
     border-radius: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
@@ -44,4 +53,18 @@ button{
 }
 button:hover{
     background-color: #64ffda;
+}
+
+#textdiv{
+    position: absolute;
+    top: 110px;
+    left: 900px;
+    width: 500px;
+    height: 100px;
+
+    background-color: #0a192f;
+    color: beige;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
 }

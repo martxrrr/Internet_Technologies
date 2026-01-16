@@ -26,21 +26,28 @@
             </div>
             <hr>
             <h1>Check in your favorite programming language</h1>
+            <div ">
+                <img id="imgdiv" src="assets/cpp.png">
+                <img id="imgdiv" src="assets/python.png">
+                <img id="imgdiv" src="assets/js.png">
+            </div>
             <div>
                 <label for="cpp">C++</label>
-                <input type="checkbox" id="cpp"><img src="assets/cpp.png">
+                <input type="radio" id="cpp" name="language">
 
                 <label for="python">Python</label>
-                <input type="checkbox" id="python" ><img src="assets/python.png">
+                <input type="radio" id="python" name="language">
 
                 <label for="javascript">Javascript</label>
-                <input type="checkbox" id="javascript"><img src="assets/js.png">
+                <input type="radio" id="javascript" name="language">
 
             </div>
             <br>
-            <button type="submit" onclick="Click()">Submit</button>        
-            <p id="textbox"></p>
+            <button type="button" onclick="Click()">Submit</button> 
         </form>
+        <div id="textdiv">       
+            <p id="textbox"></p>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
